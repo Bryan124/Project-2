@@ -1,1 +1,9 @@
-﻿  MatrixPro.vcxproj -> C:\Users\bryan\source\repos\MatrixPro\Debug\MatrixPro.exe
+﻿  main.cpp
+c:\users\bryan\source\repos\matrixpro\matrixpro\main.cpp(166): warning C4101: 'Determinant': unreferenced local variable
+  FileMakerLista.cpp
+c:\users\bryan\source\repos\matrixpro\matrixpro\filemakerlista.cpp(67): warning C4018: '<': signed/unsigned mismatch
+c:\users\bryan\source\repos\matrixpro\matrixpro\filemakerlista.cpp(81): warning C4018: '>=': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  FileMakerOperations.cpp
+  MatrixPro.vcxproj -> C:\Users\bryan\source\repos\MatrixPro\Debug\MatrixPro.exe
