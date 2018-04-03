@@ -14,7 +14,7 @@ int main() {
 	FileMakerLista B = FileMakerLista();
 	FileMakerLista Resultado = FileMakerLista();
 
-	cout << "*****File Maker Operations*****" << endl;
+	cout << "***** M E N U *****" << endl;
 
 	while (option != 7) {
 		cout << "\nEscoja una opcion: " << endl;
@@ -31,7 +31,7 @@ int main() {
 		if (option == 1) {
 			cout << "\n***Cargar Matriz al archivo***" << endl;
 
-			//Check availability.
+			//Revisa si ya estan en uso
 			if (A.inicioMatriz != nullptr) {
 				cout << "\nMatriz A ya ha sido cargada." << endl;
 			}

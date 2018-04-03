@@ -1,3 +1,4 @@
+
 #include "FileMakerLista.h"
 #include <vector>
 #include <iostream>
@@ -8,7 +9,7 @@
 #include <ostream>
 
 using  namespace std;
-
+//Print Lista
 void FileMakerLista::printLista() {
 	Nodo* Rp;
 
@@ -28,7 +29,7 @@ void FileMakerLista::printLista() {
 		Dp = Dp->abajo;
 	}
 }
-
+//Ingresa Lista al Archivo
 std::vector<std::vector<int>> FileMakerLista::Read(std::string archivename, int nfilas, int ncolum) {
 	ofstream file;
 	file.open(archivename.c_str(), ios::app);
@@ -49,7 +50,7 @@ std::vector<std::vector<int>> FileMakerLista::Read(std::string archivename, int 
 	file.close();
 	return Matrix;
 }
-
+//Lista Nodos
 FileMakerLista FileMakerLista::Lista(Matrix m) {
 	FileMakerLista Matrix_List = FileMakerLista();
 	vector<Nodo*> ListaNodos;
@@ -95,7 +96,7 @@ FileMakerLista FileMakerLista::Lista(Matrix m) {
 
 	return Matrix_List;
 }
-
+//Cargar Lista
 FileMakerLista FileMakerLista::CargaraArchivo() {
 	FileMakerLista Result_List = FileMakerLista();
 	int ncolum, nfilas;
